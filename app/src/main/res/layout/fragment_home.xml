@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Halo,"
+        android:textColor="#BBC0FF"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/cs_cuate" />
+
+    <ImageView
+        android:layout_width="137dp"
+        android:layout_height="154dp"
+        android:layout_marginTop="270dp"
+        android:src="@drawable/kategori" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/tech" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="110dp"
+        android:src="@drawable/music" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="180dp"
+        android:src="@drawable/sport" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/science" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="390dp"
+        android:src="@drawable/math" />
+
+    <ImageView
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="490dp"
+        android:src="@drawable/play_img" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="520dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Main"
+        android:textColor="#BBC0FF"
+        android:textSize="30dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_play"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:textColor="#4F4F4F"
+        android:text="Go"
+        android:textAllCaps="false"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="280dp"
+        android:fontFamily="@font/secular_one"
+        android:background="@drawable/custom_button"/>
+
+</FrameLayout>

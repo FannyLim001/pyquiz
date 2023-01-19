@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registrasi"
+    android:background="#4F4F4F"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="261dp"
+        android:src="@drawable/registrasi"
+        android:layout_marginTop="100dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/email_icon"
+        android:drawablePadding="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:fontFamily="@font/secular_one"
+        android:hint="@string/email_address"
+        android:inputType="text"
+        android:textColorHint="#BBC0FF"
+        android:textSize="16sp"
+        android:textColor="#BBC0FF"/>
+
+    <EditText
+        android:id="@+id/username_regis"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/person_icon"
+        android:drawablePadding="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:fontFamily="@font/secular_one"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:textColorHint="#BBC0FF"
+        android:textSize="16sp"
+        android:textColor="#BBC0FF"/>
+
+    <EditText
+        android:id="@+id/password_regis"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/lock_icon"
+        android:drawablePadding="12dp"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:fontFamily="@font/secular_one"
+        android:hint="@string/password"
+        android:inputType="text"
+        android:textColorHint="#BBC0FF"
+        android:textSize="16sp"
+        android:textColor="#BBC0FF"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_register"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:textColor="#4F4F4F"
+        android:text="Registrasi"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/secular_one"
+        android:background="@drawable/custom_button"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="196dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="Sudah Punya Akun? Login"
+        android:textColor="#BBC0FF"
+        android:fontFamily="@font/secular_one"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

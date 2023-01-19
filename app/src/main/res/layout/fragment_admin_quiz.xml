@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+<FrameLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AdminQuizFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="74dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/topic" />
+
+    <ImageView
+        android:layout_width="153dp"
+        android:layout_height="124dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/tech_topic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="110dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Teknologi"
+        android:textColor="#BBC0FF"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="153dp"
+        android:layout_height="124dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/music_topic" />
+
+    <TextView
+        android:id="@+id/admin_kuis_musik"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="230dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Musik"
+        android:textColor="#BBC0FF"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="153dp"
+        android:layout_height="124dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="310dp"
+        android:src="@drawable/sport_topic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Olahraga"
+        android:textColor="#BBC0FF"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="153dp"
+        android:layout_height="124dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="435dp"
+        android:src="@drawable/science_topic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="470dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Ipa"
+        android:textColor="#BBC0FF"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="153dp"
+        android:layout_height="124dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="560dp"
+        android:src="@drawable/math_topic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="590dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Matematika"
+        android:textColor="#BBC0FF"
+        android:textSize="30dp" />
+
+</FrameLayout>
+</ScrollView>

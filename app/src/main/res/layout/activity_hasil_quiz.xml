@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4F4F4F"
+    tools:context=".HasilQuiz">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="310dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Hasil"
+        android:textSize="30dp"
+        android:textColor="#BBC0FF" />
+
+    <ImageView
+        android:layout_width="497dp"
+        android:layout_height="339dp"
+        android:layout_marginBottom="140dp"
+        android:layout_gravity="center"
+        android:src="@drawable/winners_cuate" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Congratulations!"
+        android:textSize="30dp"
+        android:textColor="#BBC0FF" />
+
+    <TextView
+        android:id="@+id/hasil_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/secular_one"
+        android:text="User"
+        android:textSize="30dp"
+        android:textColor="#BBC0FF" />
+
+    <TextView
+        android:id="@+id/hasil_skor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Skor kamu adalah 8 dari 10"
+        android:textSize="20dp"
+        android:textColor="#D7DAFF" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_selesai"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:textColor="#4F4F4F"
+        android:text="Selesai"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:layout_marginTop="210dp"
+        android:fontFamily="@font/secular_one"
+        android:background="@drawable/custom_button"/>
+
+</FrameLayout>

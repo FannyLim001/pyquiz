@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:scrollbarStyle="insideOverlay">
+
+    <FrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4F4F4F"
+        tools:context=".TambahSoal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="300dp"
+            android:fontFamily="@font/secular_one"
+            android:text="Tambah Soal"
+            android:textColor="#BBC0FF"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/secular_one"
+            android:text="Gambar"
+            android:textColor="#BBC0FF"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/upload_soal"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/custom_input"
+            android:drawableEnd="@drawable/upload_icon"
+            android:drawablePadding="12dp"
+            android:fontFamily="@font/secular_one"
+            android:hint="Upload File"
+            android:inputType="text"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="#BBC0FF"
+            android:textColorHint="#BBC0FF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="210dp"
+            android:fontFamily="@font/secular_one"
+            android:text="Opsi 1"
+            android:textColor="#BBC0FF"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/tambah_opsi1"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="270dp"
+            android:background="@drawable/custom_input"
+            android:fontFamily="@font/secular_one"
+            android:inputType="text"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="#BBC0FF"
+            android:textColorHint="#BBC0FF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="330dp"
+            android:fontFamily="@font/secular_one"
+            android:text="Opsi 2"
+            android:textColor="#BBC0FF"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/tambah_opsi2"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="390dp"
+            android:background="@drawable/custom_input"
+            android:fontFamily="@font/secular_one"
+            android:inputType="text"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="#BBC0FF"
+            android:textColorHint="#BBC0FF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="440dp"
+            android:fontFamily="@font/secular_one"
+            android:text="Opsi 3"
+            android:textColor="#BBC0FF"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/tambah_opsi3"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="500dp"
+            android:background="@drawable/custom_input"
+            android:fontFamily="@font/secular_one"
+            android:inputType="text"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="#BBC0FF"
+            android:textColorHint="#BBC0FF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="560dp"
+            android:fontFamily="@font/secular_one"
+            android:text="Jawaban"
+            android:textColor="#BBC0FF"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/tambah_jawaban"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="620dp"
+            android:background="@drawable/custom_input"
+            android:fontFamily="@font/secular_one"
+            android:inputType="text"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:textColor="#BBC0FF"
+            android:textColorHint="#BBC0FF"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_tambah_soal"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="320dp"
+            android:background="@drawable/custom_button"
+            android:fontFamily="@font/secular_one"
+            android:text="Tambah"
+            android:textAllCaps="false"
+            android:textColor="#4F4F4F" />
+
+    </FrameLayout>
+</ScrollView>

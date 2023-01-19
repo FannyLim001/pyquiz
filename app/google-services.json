@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "618510553042",
+    "firebase_url": "https://pyquiz-f602e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "pyquiz-f602e",
+    "storage_bucket": "pyquiz-f602e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618510553042:android:740ca72da6bc2c302d020b",
+        "android_client_info": {
+          "package_name": "com.example.pyquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618510553042-530p2s1gsnr6mik52od5kbnjfmcm9viv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-mmUhBKcDALu6HDdmEXdAyDB3PiHR1IE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618510553042-530p2s1gsnr6mik52od5kbnjfmcm9viv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

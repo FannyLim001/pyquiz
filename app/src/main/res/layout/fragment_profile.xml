@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="310dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/secular_one"
+        android:text="Pengaturan"
+        android:textColor="#BBC0FF"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="161dp"
+        android:layout_height="276dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="180dp"
+        android:src="@drawable/user_icon" />
+
+    <TextView
+        android:id="@+id/profile_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/secular_one"
+        android:text="User"
+        android:textColor="#BBC0FF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/profile_role"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Pemain"
+        android:textColor="#BBC0FF"
+        android:textSize="30dp" />
+
+    <View
+        android:layout_width="420dp"
+        android:layout_height="2dp"
+        android:background="#BBC0FF"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="420dp"
+        android:src="@drawable/key_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Akun"
+        android:textColor="#BBC0FF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Email, password, ubah password"
+        android:textColor="#D7DAFF"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="485dp"
+        android:src="@drawable/language_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="480dp"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Bahasa"
+        android:textColor="#BBC0FF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Bahasa Indonesia"
+        android:textColor="#D7DAFF"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="555dp"
+        android:src="@drawable/help_icon" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Bantuan"
+        android:textColor="#BBC0FF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="590dp"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Kontak kami"
+        android:textColor="#D7DAFF"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="625dp"
+        android:src="@drawable/logout_icon" />
+
+    <TextView
+        android:id="@+id/btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="620dp"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="@font/secular_one"
+        android:text="Logout"
+        android:textColor="#BBC0FF"
+        android:textSize="30dp" />
+
+</FrameLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kuis_soal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4F4F4F"
+    tools:context=".Kuis">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="320dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="#BBC0FF"
+        android:fontFamily="@font/secular_one"
+        android:text="Musik" />
+
+    <ImageView
+        android:id="@+id/btn_kembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/back_icon"/>
+
+    <TextView
+        android:id="@+id/nomor_soal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="No.1"
+        android:textSize="20dp"
+        android:textColor="#4F4F4F"
+        android:fontFamily="@font/secular_one"
+        android:background="@drawable/rounded_boxv2"/>
+
+    <ImageView
+        android:id="@+id/gambar_soal"
+        android:layout_width="324dp"
+        android:layout_height="204dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="135dp"
+        android:src="@drawable/charlie_puth" />
+
+    <View
+        android:layout_width="420dp"
+        android:layout_height="2dp"
+        android:background="#BBC0FF"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_option1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#BBC0FF"
+        android:text="Charlie Puth"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/secular_one"
+        android:textSize="20dp"
+        android:background="@drawable/option_button"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_option2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#BBC0FF"
+        android:text="Taylor Swift"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/secular_one"
+        android:textSize="20dp"
+        android:background="@drawable/option_button"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_option3"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:textColor="#BBC0FF"
+        android:text="Harry Styles"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:fontFamily="@font/secular_one"
+        android:textSize="20dp"
+        android:background="@drawable/option_button"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_submit"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:textColor="#4F4F4F"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="210dp"
+        android:fontFamily="@font/secular_one"
+        android:background="@drawable/custom_button"/>
+
+</FrameLayout>
